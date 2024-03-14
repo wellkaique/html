@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: azure;
+    height: 100 vh;
+    box-sizing: border-box;
+}
+.Titulo{
+    color: rgb(242, 245, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.Intro{
+    color: rgb(62, 59, 207);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.eu{
+    color: rgb(253, 251, 255);
+    text-align:center ;
+}
+.Fotoprincipal{
+
+    height: 200px;
+    width: 150px;
+}
+.Conteudoprincipal{
+
+    display: flex;
+    margin: 12%;
+    align-items: center;
+    width: 615px;
+    
+}
+.Apresentacao_de_conteudo{
+
+    justify-content: space-between;
+    width: 620px;
+}
+.botao{
+    text-align: center;
+    background-color: rgb(17, 0, 255);
+    font-size: 24px;
+    width: 280px;
+    border-radius: 5px;
+    padding: 3;
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    justify-content: space-between;
+    font-weight: 600;
+    gap: 80px;
+    
+}
+.botoes{
+    text-align: center;
+
+}
+.rodape{
+    text-align: center;
+
+}
